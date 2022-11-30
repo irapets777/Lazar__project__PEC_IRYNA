@@ -1,0 +1,112 @@
+$var1: #C6DBCC;
+$var2: #000000;
+$var3: #F5F5F5;
+$var4: #64A476;
+$var5: #4C9F62;
+$var6: #16682C;
+$var7: #FFFFFF;
+
+.signup__form {
+	background-color: $var1;
+	height: 100%;
+	padding: 90px 0px;
+}
+.sign__title {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.2;
+	color: $var2;
+	text-transform: uppercase;
+	text-align: center;
+}
+.sign__text {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.2;
+	color: $var2;
+	margin-top: 56px;
+    @media screen and (max-width: 768px){
+        text-align: center;
+    }
+}
+.signup__choose {
+	margin-top: 36px;
+}
+.sing__items {
+	padding: 10px 20px 10px 0px;
+    @media screen and (max-width: 576px){
+        flex: 1 1 50%;
+    }
+}
+.prostethics-img {
+	padding-top: 10px;
+}
+.prostethics-img, .prosthetics-text, .prostetics-choose {
+	display: flex;
+	justify-content: center;
+    @media screen and (max-width: 810px){
+        display: flex;
+        justify-content: center;
+    }
+}
+.prosthetics-text {
+	padding-top: 10px;
+}
+.personal-data {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	input {
+		width: 100%;
+		padding: 10px;
+		margin-bottom: 12px;
+		background: $var3;
+		border: 2px solid $var4;
+		border-radius: 3px;
+	}
+}
+.btn {
+	width: 100%;
+	background-color: $var5;
+	padding: 10px;
+	&:hover {
+		background-color: $var6;
+	}
+	a {
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 1.2;
+		color: $var7;
+	}
+
+}
+
+.form-check-input {
+	width: 25px;
+	height: 25px;
+	&:checked {
+		background-color: $var6;
+		border-color: $var6;
+	}
+	&:focus {
+		background-color: $var6;
+		box-shadow: 0 0 0 0.25rem $var4;
+	}
+}
+.form1__column, .form3__column{
+    @media screen and (max-width: 380px){
+        flex-wrap: wrap;
+    }
+}
+
+.after__registering {
+	text-align: center;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 2;
+}
+.textarea {
+	color: $var2;
+	flex: auto;
+	border: 2px solid $var4;
+}

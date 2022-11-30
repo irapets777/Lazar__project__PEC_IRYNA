@@ -1,4 +1,129 @@
-.footer{
-    background-color: black;
-    color: #fff;
+footer {
+    padding: 50px;
+    background-color: #053412;
+    @media screen and (max-width: 900px){
+        padding: 20px;
+    }
+}
+
+.footer__logo {
+    img {
+        @media screen and (max-width: 992px){
+            width: 130px;
+            height: 60px;
+        } 
+    }
+}
+.footer__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #45965B;
+    padding-left: 10px;
+    @media screen and (max-width: 992px){
+        display: none;
+    }
+    @media screen and (max-width: 810px){
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+}
+
+.footer__menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    @media screen and (max-width: 810px){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 20px;
+    }
+    @media screen and (max-width: 576px){
+        justify-content: flex-start;
+    }
+    @media screen and (max-width: 380px){
+        justify-content: center;
+    }
+}
+
+.nav__footer {
+    @media screen and (max-width: 576px){
+        justify-content: space-around;
+    }
+}
+.footer__link {
+    color: #C0ECCC;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    @media screen and (max-width: 992px){
+        font-size: 24px;
+    }
+    @media screen and (max-width: 768px){
+        font-size: 20px;
+    }
+    @media screen and (max-width: 576px){
+        font-size: 16px;
+    }
+}
+
+.footer__link:hover {
+    color: #C0ECCC;
+}
+
+
+.footer__mail {
+    a {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #C0ECCC;
+        @media screen and (max-width: 576px){
+            font-size: 16px;
+        }
+        @media screen and (max-width: 380px){
+            font-size: 12px;
+        }
+    }
+} 
+
+.dark {
+    padding: 14px 0px;
+    background-color: #01270C;
+}
+
+.footer__botoom-text {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #C2C2C2;
+}
+
+.schedule {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #C1C1C1;
+    @media screen and (max-width: 900px){
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+.hotline,
+.socialmedia {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    @media screen and (max-width: 900px){
+        font-weight: 400;
+        font-size: 14px;
+    }
 }
